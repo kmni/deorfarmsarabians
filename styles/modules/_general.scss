@@ -10,7 +10,6 @@ html, body{
 
 html{
     //min-width: 1024px; // ipad issue
-    background: image-url("bg.jpg") no-repeat center 0;
 }
 
 body{
@@ -18,6 +17,9 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    background: image-url("bg.jpg") no-repeat center 0;
+    background-attachment: fixed;
+    padding-top: 160px;
 }
 
 .is-envelope{
@@ -25,12 +27,13 @@ body{
     height: 100%;
     margin: 0 auto;
     text-align: left;
-    background-color: silver;
     position: relative;
-    padding-top: 160px;
+
+    &.is-primary{
+        margin-bottom: 210px;
+    }
 
     .footer &{
-        background: transparent;
         padding-top: 0;
     }
 }

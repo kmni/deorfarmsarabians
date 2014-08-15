@@ -1,1 +1,22 @@
-.page{}
+.page{
+    position: relative;
+    width: 1533px;
+    height: 937px;
+    background: image-url("bg-content.png") no-repeat 0 0;
+    margin: auto;
+    margin-bottom: 170px;
+}
+
+.page__title{
+    width: 1354px;
+    height: 84px;
+    background: image-url("bg-page-title.png") no-repeat 0 0;
+    position: absolute;
+    left: 48px;
+    top: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 18px;
+    letter-spacing: 17px;
+}

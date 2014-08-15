@@ -7,6 +7,10 @@
     width: 100%;
     text-align: center;
 
+    .page &{
+        padding-top: 155px;
+    }
+
     .footer &{
         height: 50px;
         position: absolute;
