@@ -4,12 +4,37 @@
             box-sizing: border-box;
 }
 
+html, body{
+    width: 100%;
+}
+
 html{
-    min-width: 1024px; // ipad issue
+    //min-width: 1024px; // ipad issue
 }
 
 body{
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background: image-url("bg.jpg") no-repeat center center;
+}
+
+.is-envelope{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: silver;
+    position: relative;
+    padding-top: 160px;
+
+    .footer &{
+        background: transparent;
+        padding-top: 0;
+    }
+}
+
+.is-hide{
+    display: none;
 }
