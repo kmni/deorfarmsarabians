@@ -1,0 +1,7 @@
+{
+  "name": "DeorFarmsArabians",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp-watch": "^0.6.9"
+  }
+}

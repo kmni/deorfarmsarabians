@@ -1,0 +1,20 @@
+{
+  "name": "DeorFarmsArabians",
+  "version": "0.0.1",
+  "authors": [
+    "Tomas Musiol <tomas.musiol@gmail.com>"
+  ],
+  "description": "DeorFarmsArabians Template",
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}
