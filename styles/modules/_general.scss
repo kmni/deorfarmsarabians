@@ -10,6 +10,7 @@ html, body{
 
 html{
     //min-width: 1024px; // ipad issue
+    background: image-url("bg.jpg") no-repeat center 0;
 }
 
 body{
@@ -17,11 +18,10 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background: image-url("bg.jpg") no-repeat center center;
 }
 
 .is-envelope{
-    width: 1000px;
+    width: 1320px;
     height: 100%;
     margin: 0 auto;
     text-align: left;
