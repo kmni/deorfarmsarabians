@@ -7,6 +7,13 @@
     width: 100%;
     text-align: center;
 
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
     .page &{
         padding-top: 155px;
         background: image-url("menu-design.png") no-repeat center 110px;
