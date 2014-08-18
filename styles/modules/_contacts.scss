@@ -1,2 +1,28 @@
 .contacts{
+    position: absolute;
+    text-transform: uppercase;
+
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .header &{
+        right: 10px;
+        bottom: 15px;
+        color: #3a5b6b;
+        font-size: 14px;
+    }
+
+    .footer &{
+        height: 50px;
+        line-height: 50px;
+        right: 10px;
+        bottom: 0px;
+        color: #fff;
+        font-size: 16px;
+    }
 }
+
