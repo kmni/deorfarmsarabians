@@ -1,0 +1,35 @@
+// slider
+// ====================================
+
+.slider{
+    width: 793px;
+    height: 580px;
+    position: relative;
+    float: left;
+}
+
+.slider__rectangle{
+    width: 100%;
+    height: 100%;
+    background: transparent image-url("slider/hp/rectangle.png") no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slider__arrow{
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 28px;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.slider__arrow-left{
+    left: 16px;
+}
+
+.slider__arrow-right{
+    right: 16px;
+}

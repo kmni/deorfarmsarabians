@@ -20,9 +20,46 @@ ul{
 }
 
 .content{
+    @include cf;
     width: 1174px;
-    height: 581px;
+    height: 580px;
     background: white;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+.content-homepage{
+    width: 381px;
+    height: 580px;
+    background: #e0e0e0 image-url("hp/rectangle.png") no-repeat center center;
+    position: relative;
+    float: left;
+}
+
+.content-homepage__logo{
+    padding-top: 15px;
+}
+
+.content-homepage__text{
+    padding: 25px;
+    font-size: 16px;
+    color: #7f7f7f;
+    line-height: 20px;
+}
+
+.content-homepage__button{
+    display: block;
+    width: 354px;
+    height: 82px;
+    background: image-url("hp/button.png") no-repeat 0 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #e0e0df;
+    text-decoration: none;
+    margin-left: 5px;
+
+    &:hover{
+        text-decoration: none;
+    }
 }
