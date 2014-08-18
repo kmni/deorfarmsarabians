@@ -17,6 +17,28 @@
         position: absolute;
         bottom: 0;
     }
+
+    .is-home &{
+        background-position: 270px 110px;
+    }
+    .is-about &{
+        background-position: 357px 110px;
+    }
+    .is-stallions &{
+        background-position: 460px 110px;
+    }
+    .is-horses &{
+        background-position: 570px 110px;
+    }
+    .is-services &{
+        background-position: 670px 110px;
+    }
+    .is-news &{
+        background-position: 765px 110px;
+    }
+    .is-gallery &{
+        background-position: 855px 110px;
+    }
 }
 
 // polozky menu
