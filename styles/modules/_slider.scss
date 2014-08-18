@@ -1,10 +1,28 @@
 // slider
 // ====================================
 
+.slider-wrapper{
+    width: 793px;
+    height: 580px;
+    float: left;
+}
+
 .slider{
     width: 793px;
     height: 580px;
     position: relative;
+    overflow: hidden;
+}
+
+.slider__playlist{
+    height: 580px;
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    left: 0;
+}
+
+.slider__playlist__item{
     float: left;
 }
 
