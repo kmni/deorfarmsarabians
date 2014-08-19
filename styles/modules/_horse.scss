@@ -1,0 +1,107 @@
+// detail kone
+// ====================================
+
+.horse{
+    height: 477px;
+    width: 100%;
+    background: #335258 image-url("horse/rectangle.png") no-repeat center center;
+    @include cf;
+}
+
+.horse__photo{
+    width: 590px;
+    height: 100%;
+    float: left;
+    padding: 25px;
+}
+
+.horse__description{
+    width: 583px;
+    height: 100%;
+    float: left;
+    padding: 50px 25px 10px 10px;
+    color: white;
+}
+
+.horse__title,
+.horse__subtitle{
+    font-weight: normal;
+}
+
+.horse__title{
+    font-size: 30px;
+}
+
+.horse__subtitle{
+    font-size: 17px;
+    font-variant: small-caps;
+}
+
+.horse__divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.horse__data{
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+    th, td{
+        padding: 2px 0;
+        font-size: 16px;
+    }
+
+    th{
+        font-weight: normal;
+        width: 130px;
+    }
+}
+
+.horse__text{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+// souvisejici informace ke koni
+// ====================================
+
+.horse-related{
+    height: 103px;
+    background: image-url("horse/rectangle-small.png") no-repeat center center;
+    @include cf;
+}
+
+// fotogalerie
+// ====================================
+
+.horse-gallery{
+    width: 580px;
+    height: 103px;
+    float: left;
+}
+
+.horse-buttons{
+    float: left;
+    padding-top: 27px;
+}
+
+.horse-buttons__item{
+    display: inline-block;
+    &.is-first{
+        margin-right: 8px;
+    }
+}
+
+.horse-buttons__link{
+    display: inline-block;
+    width: 284px;
+    height: 52px;
+    background-color: #818b90;
+    text-align: center;
+    line-height: 52px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
