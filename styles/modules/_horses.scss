@@ -1,0 +1,67 @@
+.horses{
+    width: 1174px;
+    height: 100%;
+    background: #335258 image-url("rectangle.png") no-repeat center center;
+    position: relative;
+    overflow: hidden;
+}
+
+.horses__playlist{
+    @include cf;
+    width: 20000em;
+}
+
+.horses__playlist__screen{
+    width: 1174px;
+    height: 100%;
+    padding: 23px 141px;
+    padding-right: 97px; /* 141 - 44 (margin-right posledniho prvku) */
+    padding-bottom: 4px; /* 23 - 19 (margin-bottom posledniho radku) */
+    float: left;
+    @include cf;
+}
+
+.horses__item{
+    width: 267px;
+    height: 261px;
+    //background: red;
+    float: left;
+    margin-right: 44px;
+    margin-bottom: 19px;
+}
+
+.horses__item__photo{
+    width: 267px;
+    height: 207px;
+    background: white;
+    padding: 10px;
+
+    img{
+        width: 247px;
+        height: 187px;
+    }
+}
+
+.horses__item__text{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.horses__item__title,
+.horses__item__subtitle{
+    color: #ebecec;
+    font-weight: normal;
+}
+
+.horses__item__title{
+    font-size: 24px;
+}
+
+.horses__item__subtitle{
+    font-size: 14px;
+    font-variant: small-caps;
+}
+
+.horses__item__link{
+    text-decoration: none;
+}
