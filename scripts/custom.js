@@ -1,5 +1,32 @@
 $(document).ready(function() {
 
+// fancybox
+// ====================================
+
+$(".fancybox").fancybox({
+    'transitionIn'  :   'elastic',
+    'transitionOut' :   'elastic',
+    'speedIn'       :   600,
+    'speedOut'      :   200,
+    'overlayShow'   :   false
+});
+
+$(".fancybox-video").click(function() {
+    $.fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'elastic',
+        'speedIn'       :   600,
+        'speedOut'      :   200,
+        'overlayShow'   :   false,
+        'width'         :   640,
+        'height'        :   385,
+        'href'          :  this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+        'type'          :   'swf',
+        'swf'           :   { 'wmode': 'transparent', 'allowfullscreen': 'true' }
+    });
+    return false;
+});
+
 // slider na titulni strance
 // ====================================
 
@@ -34,9 +61,6 @@ if( $(".slider").length > 0 ){
 }
 
 // slider v seznamu koni
-// ====================================
-
-// slider na titulni strance
 // ====================================
 
 if( $(".horse-gallery").length > 0 ){
@@ -85,6 +109,6 @@ $(".horses__item").hover(
 $(".horses__item").click(function(){
     var url = $(this).find(".horses__item__link").attr("href");
     window.location.href = url;
-})
+});
 
 });
