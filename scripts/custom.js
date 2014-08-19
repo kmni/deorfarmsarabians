@@ -33,6 +33,42 @@ if( $(".slider").length > 0 ){
         });
 }
 
+// slider v seznamu koni
+// ====================================
+
+// slider na titulni strance
+// ====================================
+
+if( $(".horse-gallery").length > 0 ){
+    $('.horse-gallery').jcarousel({
+        wrap: 'circular'
+    });
+
+    //.jcarouselAutoscroll({ interval: 3000, target: '+=1', autostart: true });
+
+    $('.horse-gallery__arrow-left')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '-=1'
+        });
+
+    $('.horse-gallery__arrow-right')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '+=1'
+        });
+}
+
 // seznam koni
 // ====================================
 
