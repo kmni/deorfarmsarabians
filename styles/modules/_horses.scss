@@ -28,6 +28,10 @@
     float: left;
     margin-right: 44px;
     margin-bottom: 19px;
+    cursor: pointer;
+
+    &.is-hover{
+    }
 }
 
 .horses__item__photo{
@@ -35,6 +39,10 @@
     height: 207px;
     background: white;
     padding: 10px;
+
+    .is-hover &{
+        background: #d7cfb9;
+    }
 
     img{
         width: 247px;
@@ -44,7 +52,13 @@
 
 .horses__item__text{
     text-align: center;
-    padding-top: 5px;
+    padding-top: 3px;
+    height: 54px;
+    background: image-url("horses/item-shadow.png") no-repeat center 0;
+
+    .is-hover &{
+        background-color: rgba(35, 54, 64, .5);
+    }
 }
 
 .horses__item__title,

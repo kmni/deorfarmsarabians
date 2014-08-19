@@ -1,16 +1,14 @@
 $(document).ready(function() {
 
+// slider na titulni strance
+// ====================================
+
+if( $(".slider").length > 0 ){
     $('.slider').jcarousel({
         wrap: 'circular'
     });
-    /*
-    .jcarouselAutoscroll({
-            interval: 3000,
-            target: '+=1',
-            autostart: true
-        })
-    */
 
+    //.jcarouselAutoscroll({ interval: 3000, target: '+=1', autostart: true });
 
     $('.slider__arrow-left')
         .on('jcarouselcontrol:active', function() {
@@ -33,4 +31,24 @@ $(document).ready(function() {
         .jcarouselControl({
             target: '+=1'
         });
+}
+
+// seznam koni
+// ====================================
+
+$(".horses__item").hover(
+    function(){
+        var $this = $(this);
+        $this.addClass("is-hover");
+    },
+    function(){
+        $(".horses__item").removeClass("is-hover");
+    }
+);
+
+$(".horses__item").click(function(){
+    var url = $(this).find(".horses__item__link").attr("href");
+    window.location.href = url;
+})
+
 });
