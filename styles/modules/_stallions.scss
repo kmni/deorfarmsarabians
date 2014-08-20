@@ -78,10 +78,19 @@
 
 
 .stallions__item__text{
+    opacity: 0;
     background: rgba(51, 82, 88, .94);
     z-index: 666;
     padding: 15px;
     color: white;
+
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+   .is-hover &{
+        opacity: 1;
+   }
 }
 
 .stallions__item__info{
