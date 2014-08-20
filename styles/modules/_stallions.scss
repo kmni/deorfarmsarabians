@@ -147,13 +147,23 @@
 }
 
 .stallions__item__profilelink{
-    display: block;
+    display: none;
+    width: 316px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     text-transform: uppercase;
     text-decoration: none;
     background: image-url("stallions/bg-profile-link.png");
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    margin-left: -158px;
+    color: white;
+
+    .is-hover &{
+        display: block;
+    }
 }
 
 .stallions__item__emblem{
