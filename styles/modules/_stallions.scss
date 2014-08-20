@@ -1,0 +1,55 @@
+// stallions
+// ====================================
+
+.stallions{
+    height: 581px;
+    @include cf;
+}
+
+.stallions__item-env{
+    width: 411px;
+    height: 581px;
+    background: image-url("stallions/divider.png") no-repeat 375px center;
+    float: left;
+}
+
+.stallions__item{
+    width: 346px;
+    height: 581px;
+    background: white;
+}
+
+.stallions__item__photo{
+    height: 477px;
+    position: relative;
+    img{
+        width: 346px;
+        height: 477px;
+    }
+}
+
+.stallions__item__photo__rectangle,
+.stallions__item__text{
+    width: 346px;
+    height: 477px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.stallions__item__photo__rectangle{
+    background: image-url("stallions/rectangle.png") no-repeat center center;
+    z-index: 777;
+}
+
+.stallions__item__text{
+    background: rgba(51, 82, 88, .94);
+    z-index: 666;
+}
+
+.stallions__item__emblem{
+    height: 104px;
+    text-align: center;
+    padding-top: 5px;
+    background: white image-url("stallions/rectangle-small.png") no-repeat center center;
+}
