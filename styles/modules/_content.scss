@@ -19,6 +19,17 @@ ul{
     list-style: none;
 }
 
+%title,
+%subtitle{
+    font-weight: normal;
+}
+
+%title{}
+
+%subtitle{
+    font-variant: small-caps;
+}
+
 .content{
     @include cf;
     width: 1174px;

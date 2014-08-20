@@ -42,9 +42,104 @@
     z-index: 777;
 }
 
+.stallions__item__icons{
+    width: 108px;
+    height: 37px;
+    @include border-radius(18px);
+    @include background-clip(padding-box);
+    background-color: rgba(255,255,255,.38);
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    margin-left: -54px;
+    text-align: center;
+
+    li, a{
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    li{
+        padding-top: 5px;
+    }
+
+    a{
+        width: 29px;
+        height: 28px;
+        text-indent: -999px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+
+        &.is-info{ background-image: image-url("stallions/icon-info.png") }
+        &.is-photo{ background-image: image-url("stallions/icon-photo.png") }
+        &.is-video{ background-image: image-url("stallions/icon-video.png") }
+    }
+}
+
+
 .stallions__item__text{
     background: rgba(51, 82, 88, .94);
     z-index: 666;
+    padding: 15px;
+    color: white;
+}
+
+.stallions__item__info{
+    background: image-url("stallions/bg-info.png");
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.stallions__item__title,
+.stallions__item__subtitle{
+    font-weight: normal;
+}
+
+.stallions__item__title{
+    font-size: 24px;
+}
+
+.stallions__item__subtitle{
+    font-size: 16px;
+     font-variant: small-caps;
+}
+
+.stallions__item__pedigree{
+    margin-bottom: 10px;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        vertical-align: middle;
+        &.is-parent{
+            padding-left: 15px;
+        }
+        &.is-child-first{
+            border-bottom: 1px solid #e0e0e0;
+        }
+    }
+}
+
+.stallions__item__pedigree__row{
+    &.is-first{
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
+
+.stallions__item__profilelink{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: image-url("stallions/bg-profile-link.png");
 }
 
 .stallions__item__emblem{
