@@ -118,7 +118,6 @@ $(".stallions__item").hover(
     function(){
         var $this = $(this);
         $this.addClass("is-hover");
-        console.log("hover");
     },
     function(){
         $(".stallions__item").removeClass("is-hover");

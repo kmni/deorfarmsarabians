@@ -65,14 +65,19 @@
 
     a{
         width: 29px;
-        height: 28px;
+        height: 29px;
         text-indent: -999px;
         background-repeat: no-repeat;
         background-position: 0 0;
 
-        &.is-info{ background-image: image-url("stallions/icon-info.png") }
-        &.is-photo{ background-image: image-url("stallions/icon-photo.png") }
-        &.is-video{ background-image: image-url("stallions/icon-video.png") }
+        &.is-info{
+            background-image: image-url("stallions/icon-info.png");
+            .is-hover &{
+                background-image: image-url("stallions/icon-info-active.png");
+            }
+        }
+        &.is-photo{ background-image: image-url("stallions/icon-photo.png"); }
+        &.is-video{ background-image: image-url("stallions/icon-video.png"); }
     }
 }
 
