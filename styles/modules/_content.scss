@@ -37,40 +37,22 @@ ul{
     // background: white;
     margin: 0 auto;
     margin-top: 50px;
-}
 
-.content-homepage{
-    width: 381px;
-    height: 580px;
-    background: #e0e0e0 image-url("hp/rectangle.png") no-repeat center center;
-    position: relative;
-    float: left;
-}
+    &.has-background{
+        background: #335258 image-url("rectangle.png") no-repeat center center;
+        color: white;
+    }
 
-.content-homepage__logo{
-    padding-top: 15px;
-}
-
-.content-homepage__text{
-    padding: 25px;
-    font-size: 16px;
-    color: #7f7f7f;
-    line-height: 20px;
-}
-
-.content-homepage__button{
-    display: block;
-    width: 354px;
-    height: 82px;
-    background: image-url("hp/button.png") no-repeat 0 0;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 16px;
-    color: #e0e0df;
-    text-decoration: none;
-    margin-left: 5px;
-
-    &:hover{
-        text-decoration: none;
+    p{
+        margin-bottom: 20px;
+        font-size: 17px;
     }
 }
+
+.col{
+    width: 50%;
+    height: 580px;
+    float: left;
+    padding: 40px 55px;
+}
+
