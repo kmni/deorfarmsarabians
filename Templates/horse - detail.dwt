@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="../horses/favicon.png" />
         <link rel="stylesheet" href="../bower_components/fancybox/source/jquery.fancybox.css" />
         <link rel="stylesheet" href="../styles/style.min.css" />
+		<link rel="stylesheet" href="../styles/style.custom.css" />
         <!-- TemplateBeginEditable name="head" -->
         <!-- TemplateEndEditable -->
     </head>
