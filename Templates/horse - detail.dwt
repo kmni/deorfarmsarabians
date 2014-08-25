@@ -95,18 +95,18 @@
                     <div class="horse-gallery-env">
                         <div class="horse-gallery">
                             <ul class="horse-gallery__playlist">
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
-                                <li class="horse-gallery__item"><a href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
+                                <li class="horse-gallery__item"><a rel="gallery" href="../images/horse/horse-photo.png" class="fancybox"><img src="../images/horse/gallery/image1.png" /></a></li>
                             </ul>
                             <a href="#" class="horse-gallery__arrow horse-gallery__arrow-left">
                                 <img src="../images/slider/hp/left.png" />
@@ -118,8 +118,11 @@
                     </div>  <!-- /horse-gallery-env -->
 
                     <ul class="horse-buttons">
-                        <li class="horse-buttons__item is-first "><a href="../images/horse/horse-photo.png" class="fancybox horse-buttons__link">Pedigree</a></li>
+                        <li class="horse-buttons__item is-first "><!-- TemplateBeginEditable name="pedigree" -->pedigree<!-- TemplateEndEditable --><a href="../images/horse/horse-photo.png" class="fancybox horse-buttons__link">Pedigree</a></li></ul>
+                    <ul>
+                      <!-- TemplateBeginEditable name="video" -->
                         <li class="horse-buttons__item is-last"><a href="https://www.youtube.com/watch?v=OapMBWNgTzU" class="fancybox-video horse-buttons__link">Play video</a></li>
+                      <!-- TemplateEndEditable -->
                     </ul>
                 </div>  <!-- /horse-related -->
 
