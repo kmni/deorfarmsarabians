@@ -8,7 +8,8 @@ $(".fancybox").fancybox({
     'transitionOut' :   'elastic',
     'speedIn'       :   600,
     'speedOut'      :   200,
-    'overlayShow'   :   false
+    'overlayShow'   :   false,
+    'padding'       :   0
 });
 
 $(".fancybox-video").click(function() {
