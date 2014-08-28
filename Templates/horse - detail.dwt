@@ -118,15 +118,47 @@
                     </div>  <!-- /horse-gallery-env -->
 
                     <ul class="horse-buttons">
-                        <li class="horse-buttons__item is-first "><!-- TemplateBeginEditable name="pedigree" -->pedigree<!-- TemplateEndEditable --><a href="../images/horse/horse-photo.png" class="fancybox horse-buttons__link">Pedigree</a></li></ul>
-                    <ul>
-                      <!-- TemplateBeginEditable name="video" -->
+                    <li class="horse-buttons__item is-first "><a href="#pedigree" class="fancybox-pedigree horse-buttons__link">Pedigree</a></li>
                         <li class="horse-buttons__item is-last"><a href="https://www.youtube.com/watch?v=OapMBWNgTzU" class="fancybox-video horse-buttons__link">Play video</a></li>
-                      <!-- TemplateEndEditable -->
                     </ul>
                 </div>  <!-- /horse-related -->
 
-            </div>  <!-- /content -->
+                <!-- +++++++++++++++++++++++++++++++ -->
+                <!-- Pedigree -->
+                <!-- +++++++++++++++++++++++++++++++ -->
+                <!-- TemplateBeginEditable name="pedigree_detail" -->
+                <div class="pedigree-wrapper">
+                  <div class="horse-pedigree" id="pedigree">
+                    <div class="horse-pedigree__row is-first">
+                      <table>
+                        <tr>
+                          <td rowspan="2" class="is-parent">Name 1</td>
+                          <td class="is-child-first">Name 1.1</td>
+                        </tr>
+                        <tr>
+                          <td class="is-child-last">Name 1.2</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="horse-pedigree__row is-last">
+                      <table>
+                        <tr>
+                          <td rowspan="2" class="is-parent">Name 1</td>
+                          <td class="is-child-first">Name 1.1</td>
+                        </tr>
+                        <tr>
+                          <td class="is-child-last">Name 1.2</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- /horse-pedigree -->
+                </div>
+                <!-- TemplateEndEditable -->
+                <!-- /pedigree-wrapper -->
+
+
+        </div>  <!-- /content -->
 
         </div>
     </div>  <!-- /page -->
