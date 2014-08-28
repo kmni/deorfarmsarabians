@@ -140,3 +140,38 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+// pedigree
+// ====================================
+
+.pedigree-wrapper{
+    display: none;
+}
+.horse-pedigree{
+    width: 800px;
+    background: #335258;
+    color: white;
+    margin-bottom: 10px;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        vertical-align: middle;
+        &.is-parent{
+            padding-left: 15px;
+        }
+        &.is-child-first{
+            border-bottom: 1px solid #e0e0e0;
+        }
+    }
+}
+
+.horse-pedigree__row{
+    &.is-first{
+        border-bottom: 1px solid #e0e0e0;
+    }
+}

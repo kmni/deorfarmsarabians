@@ -28,6 +28,13 @@ $(".fancybox-video").click(function() {
     return false;
 });
 
+ $(".fancybox-pedigree").fancybox({
+    'href'   : '#pedigree',
+    'titleShow'  : false,
+    'transitionIn'  : 'elastic',
+    'transitionOut' : 'elastic'
+});
+
 // slider na titulni strance
 // ====================================
 
