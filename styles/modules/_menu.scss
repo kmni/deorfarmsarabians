@@ -8,6 +8,8 @@
     text-align: center;
 
     a{
+        display: block;
+        width: 100%;
         text-decoration: none;
         &:hover{
             text-decoration: underline;
@@ -28,23 +30,44 @@
     .is-home &{
         background-position: 252px 110px;
     }
+    .hover-home &{
+        background-position: 252px 110px !important;
+    }
     .is-about &{
         background-position: 343px 110px;
+    }
+    .hover-about &{
+        background-position: 343px 110px !important;
     }
     .is-stallions &{
         background-position: 452px 110px;
     }
+    .hover-stallions &{
+        background-position: 452px 110px !important;
+    }
     .is-horses &{
         background-position: 569px 110px;
+    }
+    .hover-horses &{
+        background-position: 569px 110px !important;
     }
     .is-services &{
         background-position: 673px 110px;
     }
+    .hover-services &{
+        background-position: 673px 110px !important;
+    }
     .is-news &{
         background-position: 775px 110px;
     }
+    .hover-news &{
+        background-position: 775px 110px !important;
+    }
     .is-gallery &{
         background-position: 874px 110px;
+    }
+    .hover-gallery &{
+        background-position: 874px 110px !important;
     }
 }
 
@@ -57,12 +80,12 @@
     text-transform: uppercase;
 
     .page &{
-        margin-left: 17px;
-        margin-right: 17px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
     .footer &{
-        margin-left: 14px;
-        margin-right: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
         height: 50px;
         line-height: 50px;
     }

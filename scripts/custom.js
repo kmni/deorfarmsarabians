@@ -132,5 +132,20 @@ $(".stallions__item").hover(
     }
 );
 
+// hover nad menu
+// ====================================
+
+var hoverClass = "";
+$(".menu.is-top .menu__link").hover(
+    function(){
+        var thisDataHover = $(this).data("page");
+        hoverClass = "hover-" + thisDataHover;
+        $("body").addClass(hoverClass);
+    },
+    function(){
+        $("body").removeClass(hoverClass);
+    }
+);
+
 
 });
