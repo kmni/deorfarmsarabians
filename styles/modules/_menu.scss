@@ -79,9 +79,15 @@
     font-size: 16px;
     text-transform: uppercase;
 
+    &.has-submenu{
+        background: image-url("submenu-arrow.png") no-repeat center bottom;
+        position: relative;
+    }
+
     .page &{
         padding-left: 17px;
         padding-right: 17px;
+        height: 60px;
     }
     .footer &{
         padding-left: 14px;
@@ -102,5 +108,35 @@
     }
     .footer &{
         color: white;
+    }
+}
+
+// submenu
+// ====================================
+
+.submenu{
+    position: absolute;
+    left: 3px;
+    top: 60px;
+    width: 90px;
+    background-color: #3F6474;
+    z-index: 888;
+    display: none;
+
+    &.is-visible{
+        display: block;
+    }
+}
+
+.submenu__item{
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 1px solid #385661;
+    font-size: 14px;
+
+    &.is-last{
+        border-bottom: 0;
     }
 }

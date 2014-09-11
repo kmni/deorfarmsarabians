@@ -135,6 +135,19 @@ $(".stallions__item").hover(
 // hover nad menu
 // ====================================
 
+$(".submenu__item:last").addClass("is-last");
+
+$(".menu.is-top .has-submenu").hover(
+    function(){
+        //$(this).find(".submenu").addClass("is-visible");
+        $(this).find(".submenu").fadeIn(200);
+    },
+    function(){
+        //$(".submenu").removeClass("is-visible");
+        $(".submenu").fadeOut(200);
+    }
+);
+
 var hoverClass = "";
 $(".menu.is-top .menu__link").hover(
     function(){
