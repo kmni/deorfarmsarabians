@@ -2,16 +2,28 @@
 // ====================================
 
 .slider-wrapper{
-    width: 793px;
+    display: block;
+    width: 643px;
     height: 580px;
     float: left;
+
+    @include breakpoint($bp--m-down) {
+        display: none;
+    }
+
+    @include breakpoint($bp--l-up) {
+        width: 793px;
+    }
 }
 
 .slider{
-    width: 793px;
+    width: 643px;
     height: 580px;
     position: relative;
     overflow: hidden;
+    @include breakpoint($bp--l-up) {
+        width: 793px;
+    }
 }
 
 .slider__playlist{
@@ -30,9 +42,13 @@
     width: 100%;
     height: 100%;
     background: transparent image-url("slider/hp/rectangle.png") no-repeat center center;
+    background-size: 99% 99%;
     position: absolute;
     left: 0;
     top: 0;
+    @include breakpoint($bp--l-up) {
+        background-size: 100% 100%;
+    }
 }
 
 .slider__arrow{

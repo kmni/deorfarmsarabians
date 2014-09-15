@@ -1,6 +1,8 @@
 @import "compass";
+@import "breakpoint";
 @import "mixins/clearfix";
 
+@import "modules/breakpoints";
 @import "modules/fonts";
 @import "modules/general";
 @import "modules/buttons";

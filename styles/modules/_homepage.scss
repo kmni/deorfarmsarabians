@@ -1,9 +1,15 @@
 .homepage{
-    width: 381px;
+    width: 100%;
     height: 580px;
-    background: #e0e0e0 image-url("hp/rectangle.png") no-repeat center center;
+    background: #e0e0e0;
     position: relative;
-    float: left;
+    text-align: center;
+    @include breakpoint($bp--m-up) {
+        float: left;
+        width: 381px;
+        background: #e0e0e0 image-url("hp/rectangle.png") no-repeat center center;
+        text-align: left;
+    }
 }
 
 .homepage__logo{
@@ -31,7 +37,11 @@
     font-size: 16px;
     color: #e0e0df;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 0px;
+
+    @include breakpoint($bp--l-up) {
+       margin-left: 5px;
+    }
 
     &:hover{
         text-decoration: none;
