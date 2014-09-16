@@ -40,6 +40,13 @@ body{
             padding-top: 0;
         }
     }
+
+    .header &{
+        text-align: center;
+        @include breakpoint($bp--l-up) {
+            text-align: left;
+        }
+    }
 }
 
 .is-hide{

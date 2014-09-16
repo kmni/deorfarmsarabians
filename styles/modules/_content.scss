@@ -34,7 +34,16 @@ ul{
     @include cf;
     width: 100%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 0;
+
+    @include breakpoint($bp--s-up) {
+        padding: 30px;
+    }
+
+    @include breakpoint($bp--l-up) {
+        width: 1174px;
+        padding: 0;
+    }
 
     .is-home &{
         @include breakpoint($bp--m-up) {
@@ -43,14 +52,6 @@ ul{
             height: 580px;
             padding-bottom: 40px;
         }
-    }
-
-    @include breakpoint($bp--l-up) {
-        width: 1174px;
-        padding: 0;
-    }
-
-    @include breakpoint($bp--m-up) {
     }
 
     &.has-background{

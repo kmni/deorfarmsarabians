@@ -28,6 +28,11 @@
     font-weight: normal;
     z-index: 888;
     font-size: 15px;
+    display: none;
+
+    @include breakpoint($bp--s-up) {
+        display: block;
+    }
 
     @include breakpoint($bp--l-up) {
         width: 1354px;
