@@ -34,7 +34,7 @@ ul{
     @include cf;
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 20px;
 
     @include breakpoint($bp--s-up) {
         padding: 30px;
@@ -46,6 +46,7 @@ ul{
     }
 
     .is-home &{
+        padding: 0;
         @include breakpoint($bp--m-up) {
             padding: 0;
             width: 1174px;
