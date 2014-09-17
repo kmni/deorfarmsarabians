@@ -20,9 +20,13 @@
         padding-top: 15px;
         padding-top: 15px;
         background-color: #DFDFDF;
+        display: none;
 
+        @include breakpoint($bp--s-up) {
+            display: block;
             padding-top: 155px;
-            background: image-url("menu-design.png") no-repeat center 110px;
+            background: transparent image-url("menu-design.png") no-repeat center 110px;
+        }
     }
 
     .footer &{

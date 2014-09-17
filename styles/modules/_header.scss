@@ -1,4 +1,9 @@
 .header{
     height: 102px;
     position: relative;
+    margin-top: 50px;
+
+    @include breakpoint($bp--s-up) {
+        margin-top: 0;
+    }
 }
