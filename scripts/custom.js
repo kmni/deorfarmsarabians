@@ -157,9 +157,9 @@ $(".menu.is-top .has-submenu").hover(
 );
 
 var hoverClass = "";
-$(".menu.is-top .menu__link").hover(
+$(".menu.is-top .menu__item").hover(
     function(){
-        var thisDataHover = $(this).data("page");
+        var thisDataHover = $(this).find("a").data("page");
         hoverClass = "hover-" + thisDataHover;
         $("body").addClass(hoverClass);
     },
