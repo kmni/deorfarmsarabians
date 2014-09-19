@@ -7,6 +7,7 @@
         <!-- TemplateEndEditable -->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="../favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
         <link rel="stylesheet" href="../styles/style.min.css" />
 		<link rel="stylesheet" href="../styles/style.custom.css" />
         <!-- TemplateBeginEditable name="head" -->
@@ -23,21 +24,21 @@
         <a href="#" class="mobile_header__handler"></a>
     </div>
     <ul class="mobile_menu">
-        <li class="mobile_menu__item"><a data-page="home" href="../index.html" class="mobile_menu__link">home</a></li>
-        <li class="mobile_menu__item"><a data-page="about" href="../about.html" class="mobile_menu__link">about</a></li>
-        <li class="mobile_menu__item"><a data-page="stallions" href="../stallions.html" class="mobile_menu__link">stallions</a></li>
+        <li class="mobile_menu__item"><a data-page="home" href="../" class="mobile_menu__link">home</a></li>
+        <li class="mobile_menu__item"><a data-page="about" href="../about/" class="mobile_menu__link">about</a></li>
+        <li class="mobile_menu__item"><a data-page="stallions" href="../stallions/" class="mobile_menu__link">stallions</a></li>
         <li class="mobile_menu__item has-submenu">
-            <a data-page="horses" href="../horses.html" class="mobile_menu__link">horses</a>
+            <a data-page="horses" href="#" class="mobile_menu__link">horses</a>
             <ul class="mobile_submenu">
-                <li class="mobile_menu__item"><a href="../mares.html">Mares</a></li>
-                <li class="mobile_menu__item"><a href="../foals.html">Foals</a></li>
-                <li class="mobile_menu__item"><a href="../sales.html">Sales</a></li>
+                <li class="mobile_menu__item"><a href="../mares/">Mares</a></li>
+                <li class="mobile_menu__item"><a href="../foals/">Foals</a></li>
+                <li class="mobile_menu__item"><a href="../sales/">Sales</a></li>
             </ul>
         </li>
-        <li class="mobile_menu__item"><a data-page="services" href="../services.html" class="mobile_menu__link">services</a></li>
-        <li class="mobile_menu__item"><a data-page="news" href="../news.html" class="mobile_menu__link">news</a></li>
-        <li class="mobile_menu__item"><a data-page="gallery" href="../gallery.html" class="mobile_menu__link">gallery</a></li>
-        <li class="mobile_menu__item"><a data-page="gallery" href="../contact.html" class="mobile_menu__link">contact</a></li>
+        <li class="mobile_menu__item"><a data-page="services" href="../services/" class="mobile_menu__link">services</a></li>
+        <li class="mobile_menu__item"><a data-page="news" href="../news/" class="mobile_menu__link">news</a></li>
+        <li class="mobile_menu__item"><a data-page="gallery" href="../gallery/" class="mobile_menu__link">gallery</a></li>
+        <li class="mobile_menu__item"><a data-page="contact" href="../contact/" class="mobile_menu__link">contact</a></li>
     </ul>
 
     <!-- ++++++++++++++++++++++++++++++ -->
@@ -48,11 +49,11 @@
         <div class="is-envelope">
 
             <h1 class="logo">
-                <a href="../index.html" class="logo__link">Deor Farms Arabians</a>
+                <a href="../" class="logo__link">Deor Farms Arabians</a>
             </h1>
 
             <ul class="contacts">
-                <li class="contacts__item"><a href="../contact.html" class="contacts__link">Contact</a></li>
+                <li class="contacts__item"><a href="../contact/" class="contacts__link">Contact</a></li>
             </ul>   <!-- /contacts -->
 
         </div>
@@ -67,32 +68,33 @@
       <h2 class="page__title">STANDING AT DEOR FARMS</h2>
     <!-- TemplateEndEditable -->
       <div class="is-envelope">
-            <ul class="menu">
-                <li class="menu__item"><a href="../index.html" class="menu__link">home</a></li>
-                <li class="menu__item"><a href="../about.html" class="menu__link">about</a></li>
-                <li class="menu__item"><a data-page="stallions" href="stallions.html" class="menu__link">stallions</a></li>
+            <ul class="menu is-top">
+                <li class="menu__item"><a data-page="home" href="../" class="menu__link">home</a></li>
+                <li class="menu__item"><a data-page="about" href="../about/" class="menu__link">about</a></li>
+                <li class="menu__item"><a data-page="stallions" href="stallions/" class="menu__link">stallions</a></li>
                 <li class="menu__item has-submenu">
-                    <a data-page="horses" href="horses.html" class="menu__link">horses</a>
+                    <a data-page="horses" href="#" class="menu__link">horses</a>
                     <ul class="submenu">
-                        <li class="submenu__item"><a href="/mares.html">Mares</a></li>
-                        <li class="submenu__item"><a href="/foals.html">Foals</a></li>
-                        <li class="submenu__item"><a href="/sales.html">Sales</a></li>
+                        <li class="submenu__item"><a href="../mares/">Mares</a></li>
+                        <li class="submenu__item"><a href="../foals/">Foals</a></li>
+                        <li class="submenu__item"><a href="../sales/">Sales</a></li>
                     </ul>
                 </li>
-                <li class="menu__item"><a href="../services.html" class="menu__link">services</a></li>
-                <li class="menu__item"><a href="../news.html" class="menu__link">news</a></li>
-                <li class="menu__item"><a href="../gallery.html" class="menu__link">gallery</a></li>
+                <li class="menu__item"><a data-page="services" href="../services/" class="menu__link">services</a></li>
+                <li class="menu__item"><a data-page="news" href="../news/" class="menu__link">news</a></li>
+                <li class="menu__item"><a data-page="gallery" href="../gallery/" class="menu__link">gallery</a></li>
             </ul>
 
-            <div class="content"><!-- TemplateBeginEditable name="horses" -->
+            <div class="content">
               <div class="horses">
                 <!-- slider -->
                 <div class="horses__playlist">
                   <ul class="horses__playlist__screen">
+                  <!-- TemplateBeginEditable name="horses" -->
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
@@ -100,7 +102,7 @@
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
@@ -108,7 +110,7 @@
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
@@ -116,7 +118,7 @@
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
@@ -124,7 +126,7 @@
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
@@ -132,17 +134,18 @@
                     <li class="horses__item">
                       <div class="horses__item__photo"> <img src="../images/horses/horse-1.png" alt="Errowe" /> </div>
                       <div class="horses__item__text">
-                        <h2 class="horses__item__title"> <a href="../horses/errowe.html" class="horses__item__link">Errowe</a> </h2>
+                        <h2 class="horses__item__title"> <a href="../horses/errowe/" class="horses__item__link">Errowe</a> </h2>
                         <h3 class="horses__item__subtitle">2012 Grey Stallion</h3>
                       </div>
                     </li>
                     <!-- /horses__item -->
+                    <!-- TemplateEndEditable -->
                   </ul>
                   <!-- /horses__playlist__screen -->
                 </div>
                 <!-- /horses__playlist -->
               </div>
-            <!-- TemplateEndEditable --><!-- /horses -->
+            <!-- /horses -->
             </div>  <!-- /content -->
 
         </div>
@@ -155,7 +158,7 @@
 
     <div class="footer-small">
         <div class="is-envelope"><!-- TemplateBeginEditable name="weblink" -->
-          <p class="footer-small__url"><a href="http://www.deorfarmarabians.com">DeorFarmArabians.com</a></p>
+          <p class="footer-small__url"><a href="../">DeorFarmArabians.com</a></p>
         <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="copyright" -->
         <p class="footer-small__copyright">&copy; Copyright 2014 <a href="http://www.arabhorse.com">Arabhorse.com</a></p>
         <!-- TemplateEndEditable --></div>
@@ -170,20 +173,22 @@
         <div class="is-envelope">
 
             <h2 class="logo">
-                <a href="../index.html" class="logo__link">Deor Farms Arabians</a>
+                <a href="../" class="logo__link">Deor Farms Arabians</a>
             </h2>
             <ul class="menu">
-                <li class="menu__item"><a href="../index.html" class="menu__link">home</a></li>
-                <li class="menu__item"><a href="../stallions.html" class="menu__link">stallions</a></li>
-                <li class="menu__item"><a href="../horses.html" class="menu__link">horses</a></li>
-                <li class="menu__item"><a href="../services.html" class="menu__link">services</a></li>
-                <li class="menu__item"><a href="../news.html" class="menu__link">news</a></li>
-                <li class="menu__item"><a href="../about.html" class="menu__link">about</a></li>
-                <li class="menu__item"><a href="../gallery.html" class="menu__link">gallery</a></li>
+                <li class="menu__item"><a href="../" class="menu__link">home</a></li>
+                <li class="menu__item"><a href="../stallions/" class="menu__link">stallions</a></li>
+                <li class="menu__item"><a href="../mares/" class="menu__link">mares</a></li>
+                <li class="menu__item"><a href="../foals/" class="menu__link">foals</a></li>
+                <li class="menu__item"><a href="../sales/" class="menu__link">sales</a></li>
+                <li class="menu__item"><a href="../services/" class="menu__link">services</a></li>
+                <li class="menu__item"><a href="../news/" class="menu__link">news</a></li>
+                <li class="menu__item"><a href="../about/" class="menu__link">about</a></li>
+                <li class="menu__item"><a href="../gallery/" class="menu__link">gallery</a></li>
             </ul>
             <hr class="is-hide" />
             <ul class="contacts">
-                <li class="contacts__item"><a href="../contact.html" class="contacts__link">Contact</a></li>
+                <li class="contacts__item"><a href="../contact/" class="contacts__link">Contact</a></li>
             </ul>   <!-- /contacts -->
 
         </div>  <!-- /is-envelope -->
