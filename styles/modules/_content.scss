@@ -38,9 +38,6 @@ ul{
 
     .is-horses &{
         padding: 0;
-        @include breakpoint($bp--s-up) {
-            padding: 30px;
-        }
     }
 
     .is-horse &{
