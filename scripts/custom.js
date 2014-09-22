@@ -109,6 +109,40 @@ if( $(".horse-gallery").length > 0 ){
         });
 }
 
+// stallions
+// ====================================
+
+if( $(".stallions__screen").length > 0 ){
+    $('.stallions__screen').jcarousel({
+        wrap: 'circular'
+    });
+
+    //.jcarouselAutoscroll({ interval: 3000, target: '+=1', autostart: true });
+
+    $('.stallions__arrow-left')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '-=1'
+        });
+
+    $('.stallions__arrow-right')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '+=1'
+        });
+}
+
+
 // seznam koni
 // ====================================
 

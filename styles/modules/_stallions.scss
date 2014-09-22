@@ -4,6 +4,37 @@
 .stallions{
     height: 581px;
     @include cf;
+    position: relative;
+}
+
+.stallions__screen{
+    width: 100%;
+    height: 581px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stallions__arrow{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.stallions__arrow-left{
+    left: -40px;
+}
+
+.stallions__arrow-right{
+    right: -40px;
+}
+
+
+.stallions__playlist{
+    width: 20000em;
+    height: 581px;
+    position: relative;
 }
 
 .stallions__item-env{
