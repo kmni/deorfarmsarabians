@@ -208,6 +208,54 @@ if( $(".gallery__slider").length > 0 ){
         });
 }
 
+// news
+// ====================================
+
+if( $(".news__slider").length > 0 ){
+    $('.news__slider').jcarousel({
+        wrap: 'circular'
+    });
+
+    //.jcarouselAutoscroll({ interval: 3000, target: '+=1', autostart: true });
+
+    $('.news__arrow-left')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '-=1'
+        });
+
+    $('.news__arrow-right')
+        .on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '+=1'
+        });
+}
+
+$(".news__item").hover(
+    function(){
+        $(this).addClass("is-hover");
+    },
+    function(){
+        $(".news__item").removeClass("is-hover");
+    }
+);
+
+$(".news__item").click(function(){
+    var thisHref = $(this).find(".news__item__more a").attr("href");
+    window.location.href = thisHref;
+    return false;
+})
+
 // seznam koni
 // ====================================
 

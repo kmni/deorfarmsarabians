@@ -1,0 +1,121 @@
+.news{
+
+    height: 580px;
+    background: transparent;
+    position: relative;
+
+    @include breakpoint($bp--m-up) {
+        width: 970px;
+    }
+    @include breakpoint($bp--l-up) {
+        width: 1174px;
+    }
+}
+
+.news__slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.news__playlist{
+    @include cf;
+    @include breakpoint($bp--m-up) {
+        width: 20000em;
+        position: relative;
+    }
+}
+
+.news__arrow{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    z-index: 777;
+}
+
+.news__arrow-left{
+    left: 55px;
+}
+
+.news__arrow-right{
+    right: 55px;
+}
+
+.news__playlist__screen{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    @include cf;
+    padding: 50px 0px 0 0;
+    @include breakpoint($bp--s-up) {
+        padding: 75px;
+    }
+    @include breakpoint($bp--m-up) {
+        width: 1100px;
+        float: left;
+    }
+    @include breakpoint($bp--l-up) {
+        width: 1174px;
+        padding-bottom: 4px; /* 23 - 19 (margin-bottom posledniho radku) */
+    }
+
+}
+
+.news__item{
+    display:inline-block;
+    width: 298px;
+    height: 197px;
+    cursor: pointer;
+    margin: 0px 7px 25px 7px;
+    background-color: white;
+    padding: 10px;
+
+    &.is-hover{
+        background-color: #d7cfb9;
+    }
+}
+
+.news__item__content{
+    background-color: #335258;
+    color: white;
+
+    .is-hover &{
+        background-color: white;
+        color: #335258;
+    }
+}
+
+.news__item__name{
+    width: 100%;
+    height: 140px;
+    display: table;
+
+    h2{
+        display: table-cell;
+        padding: 10px;
+        width: 100%;
+        height: 140px;
+        vertical-align: middle;
+        font-size: 24px;
+        overflow: hidden;
+        font-weight: normal;
+        line-height: 1.5em;
+    }
+}
+
+.news__item__more{
+    height: 37px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
