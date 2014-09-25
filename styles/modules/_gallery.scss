@@ -34,14 +34,15 @@
     position: absolute;
     top: 50%;
     margin-top: -14px;
+    z-index: 777;
 }
 
 .gallery__arrow-left{
-    left: -40px;
+    left: 55px;
 }
 
 .gallery__arrow-right{
-    right: -40px;
+    right: 55px;
 }
 
 .gallery__playlist__screen{
